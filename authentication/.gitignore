@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Environment secrets - NEVER commit this
+.env
+
+# React
+frontend/node_modules/
+frontend/build/
+
+# Editor
+.vscode/
