@@ -9,7 +9,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:8000/api/", // Django backend URL
+  baseURL: "https://smart-shopping-price-tracker.onrender.com/api/",
 });
 
 // Runs before every request — attaches the saved login token, if any
